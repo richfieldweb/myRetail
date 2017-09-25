@@ -1,29 +1,26 @@
 # MyRetail
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 1.4.3.
+UI - Front End Case Study (built with [Angular](https://angular.io/)).
 
-## Development server
+## Running the App
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
+Run these commands in the Mac Terminal:
 
-Run `npm run mock` for a dev server that uses the mock backend (for serving dummy API data during development).
+```
+git clone https://github.com/richfieldweb/myRetail.git
+cd myRetail
+npm install
+npm run mock
+```
 
-## Code scaffolding
-
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
-
-## Build
+## Building the App (Requires angular-cli)
 
 Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory. Use the `-prod` flag for a production build.
 
-## Running unit tests
+## Running Unit Tests (Requires angular-cli)
 
 Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
 
-## Running end-to-end tests
+## Deployment Pipeline Diagram
 
-Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protractortest.org/).
-
-## Further help
-
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI README](https://github.com/angular/angular-cli/blob/master/README.md).
+Located in the `docs/` directory.
