@@ -1,0 +1,61 @@
+.item-title {
+  font-size: 1.5rem;
+  font-weight: lighter;
+}
+
+.carousel-container {
+  margin: 0 auto 20px;
+  width: 100%;
+  
+  // /deep/ overrides the carousel component's style encapsulation
+  /deep/ {
+    .carousel-inner {
+      text-align: center;
+    }
+    .carousel-indicators {
+      display: none;
+    }
+    .carousel-control-prev {
+      background-color: #efefef;
+    }
+    .carousel-control-next {
+      background-color: #efefef;
+    }
+  }
+}
+
+.price {
+  margin-bottom: 20px;
+  display: block;
+  font-size: 1.5rem;
+}
+
+.actions {
+  margin-bottom: 20px;
+  white-space: nowrap;
+
+  button {
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+
+    &.store-pick-up {
+      color: #fff;
+      background-color: #000;
+    }
+
+    &.add-to-cart {
+      color: #fff;
+      background-color: #DD0000; // Target red
+    }
+  }
+}
+
+.features {
+  font-size: .8rem;
+  color: #666;
+}
+
+.item-reviews {
+  margin-top: 20px;
+}
