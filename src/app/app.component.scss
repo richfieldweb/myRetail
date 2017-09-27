@@ -6,9 +6,9 @@
 .carousel-container {
   margin: 0 auto 20px;
   width: 100%;
-  
-  // /deep/ overrides the carousel component's style encapsulation
-  /deep/ {
+
+  // ::ng-deep overrides the carousel component's style encapsulation
+  ::ng-deep {
     .carousel-inner {
       text-align: center;
     }
